@@ -9,6 +9,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <style>
+        .font-manrope {
+            font-family: "Manrope", serif;
+        }
+    </style>
     <!-- Font awesome -->
     <script src="https://kit.fontawesome.com/44b8d6d199.js" crossorigin="anonymous"></script>
     <!-- Tailwind CSS -->
@@ -26,8 +31,48 @@
     </script>
 </head>
 
-<body>
-
+<body class="font-menrope">
+    <!-- Main content -->
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
+        <!-- Header section -->
+        <header class="flex pt-10 mb-20">
+            <!-- Text content -->
+            <div>
+                <h1 class="text-5xl md:text-7xl font-extrabold font-manrope">It's good <br> tea time at The <br> Tea
+                    House</h1>
+                <br>
+                <p class="text-gray-600 w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction
+                    To Your Taste Buds.</p>
+                <br>
+                <button
+                    class="text-xl font-semibold px-5 py-4 rounded-xl bg-gradient-to-r from-[#FF8938] to-[#FF0000] text-white">Explore
+                    More <i class="fa-solid fa-arrow-right-long -rotate-45"></i>
+                </button>
+            </div>
+            <!-- Image content -->
+            <div>
+                <!-- Image -->
+                <div class="relative">
+                    <img src="images/banner.png" alt="">
+                </div>
+                <!-- Card -->
+                <div
+                    class="absolute flex items-center shadow-lg bg-white rounded-xl px-2 py-2 md:px-10 lg:py-4 top-28 md:top-80">
+                    <!-- icon -->
+                    <div>
+                        <i class="fa-solid fa-star text-2xl text-yellow-400"></i>
+                    </div>
+                    <!-- Text -->
+                    <div class="ml-2">
+                        <h2 class="font-bold lg:text-3xl">5.00</h2>
+                        <p class="text-gray-600 font-semibold">Trust Pilot Ratings</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Featured products section -->
+         <section class="py-8 lg:py-24"></section>
+    </main>
 </body>
 
 </html>
